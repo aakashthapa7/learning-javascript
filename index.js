@@ -14,3 +14,12 @@ function test1() {
   console.log("a is " + a);
   console.log("b is " + b);
 }
+
+function test2() {
+  // Character count using length and string concatenation
+  var text = prompt("Enter some text to tweet:");
+  var textLength = text.length;
+  alert("You have written " + textLength + " characters." + " Now you have " + (280 - text.length) + " characters left.");
+
+}
+
